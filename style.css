@@ -1,0 +1,78 @@
+h1 {
+    color:white; 
+    font-size: 35px;
+    font-family:cursive ;
+    margin: 30px;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    margin: 30px;
+}
+
+.menu *{
+    padding: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p {
+    text-align: center;
+    color:white;
+    font-size:x-large;
+    font-family:monospace;
+}
+
+h2 {
+    text-align: center;
+    color:azure;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: rgb(22, 151, 211);
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:mintcream;
+}
+
+.item {
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.5;
+}
